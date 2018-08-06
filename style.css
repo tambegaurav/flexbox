@@ -1,0 +1,35 @@
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    height: 300px;
+    width: 460px;
+    margin: 20px;
+    transition: all 0.7s;
+
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+body{
+    margin: 0px 0px;
+}
+h1{
+    font-family: cursive;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    width: 300px;
+    border-right: 2px solid pink;
+    border-top: 2px solid pink;
+    text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+    margin-top: 0px;
+    color: lavender;
+}
+body{
+    background-image: url(back.jpg);
+}
